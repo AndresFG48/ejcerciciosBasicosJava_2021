@@ -12,6 +12,7 @@ package ejerciciosbasicosjava;
 public class EjerciciosBasicosJava {
     
      public boolean fiestaArdillas(int numBellotas, boolean finDeSemana){
+         
         //si es fin de semana da igual cuántas bellotas haya
         if (finDeSemana){
             return true;
@@ -34,6 +35,7 @@ public class EjerciciosBasicosJava {
  */
      
      public int multa (int velocidad, boolean birthday){
+         
        //si es tu cumpleaños, le resta 5 a la velocidad
        if (birthday){
            velocidad = velocidad - 5;  // velocidad -= 5;
